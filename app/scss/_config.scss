@@ -5,10 +5,16 @@ $textcolor: #000; // Text Color
 $lineheight: 1.65; // Document Line Height
 $userfont: Roboto, sans-serif; // User Font Family
 
+$blue: #005b95;
+$blue--dark: #025081;
+$orange: #f56920;
+
 // Breakpoint
 $tablet: 1199px;
 $mobile: 767px;
 $mobile-sm: 374px;
+
+@import "node_modules/bootstrap/dist/css/bootstrap";
 
 // FONTS LOAD SECTION
 @mixin font($fname, $fstyle, $fweight, $furl) {
@@ -20,8 +26,9 @@ $mobile-sm: 374px;
   }
 }
 
-@include font("Roboto", normal, 400, "../fonts/Roboto-Regular.woff2");
-@include font("Roboto", italic, 400, "../fonts/Roboto-Italic.woff2");
-@include font("Roboto", normal, 500, "../fonts/Roboto-Medium.woff2");
-@include font("Roboto", normal, 700, "../fonts/Roboto-Bold.woff2");
-@include font("Roboto", normal, 900, "../fonts/Roboto-Black.woff2");
+@include font(
+  "Inter",
+  normal,
+  700,
+  "../fonts/Inter-VariableFont_slnt,wght.woff2"
+);

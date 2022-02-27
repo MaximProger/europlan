@@ -1,3 +1,3 @@
-document.addEventListener("DOMContentLoaded", function (event) {});
+import bootstrap from "bootstrap";
 
-// $(document).ready(function () {});
+$(document).ready(function () {});
