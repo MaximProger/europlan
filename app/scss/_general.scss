@@ -185,6 +185,10 @@ img {
   &--index {
     top: 25px;
   }
+
+  &.no-xl {
+    display: none;
+  }
 }
 
 .page-inner {
@@ -941,6 +945,10 @@ img {
       top: 3%;
       right: 20%;
     }
+
+    &.xs {
+      display: block;
+    }
   }
   // Page END
 
@@ -994,7 +1002,7 @@ img {
   }
 
   .congr__text {
-    font-size: 16px;
+    font-size: 18px;
 
     br {
       display: none;
