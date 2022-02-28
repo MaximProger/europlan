@@ -26,9 +26,6 @@ $mobile-sm: 374px;
   }
 }
 
-@include font(
-  "Inter",
-  normal,
-  700,
-  "../fonts/Inter-VariableFont_slnt,wght.woff2"
-);
+@include font("Inter", normal, 400, "../fonts/Inter-Regular.woff2");
+
+@include font("Inter", normal, 700, "../fonts/Inter-Bold.woff2");
