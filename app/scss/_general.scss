@@ -647,6 +647,25 @@ img {
 }
 // Congr END
 
+@media (min-width: 1500px) {
+  .page-bg {
+    &--large {
+      left: 5vw;
+      top: 0;
+
+      width: 290px;
+
+      background-image: url(../images/dist/label_2.png);
+    }
+  }
+
+  .page-inner__logo {
+    &--registration {
+      right: 5vw !important;
+    }
+  }
+}
+
 @media (max-height: 1080px) {
   .page-inner__logo {
     right: 15px;
