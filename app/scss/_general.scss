@@ -667,6 +667,14 @@ img {
   }
 }
 
+@media (min-width: 1400px) and (max-height: 767px) {
+  .page-inner {
+    &--registration {
+      background: none;
+    }
+  }
+}
+
 @media (max-height: 1080px) {
   .page-inner__logo {
     right: 15px;
