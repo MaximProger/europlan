@@ -523,16 +523,17 @@ img {
   text-align: center;
   outline: none;
 
+  border: 1px solid #005b95;
+  color: #005b95;
+  background: none;
   border-radius: 40px;
-  background: $blue;
-  border: none;
-  color: #fff;
+  color: #005b95;
 
   &::placeholder {
     font-family: "Inter";
     line-height: 1;
 
-    color: #fff;
+    color: #005b95;
   }
 
   &--error + .registration__error {
@@ -647,7 +648,7 @@ img {
 }
 // Congr END
 
-@media (min-width: 1500px) and (min-height: 1080px) {
+@media (min-width: 1600px) {
   .page-bg {
     &--large {
       left: 5vw;
