@@ -647,6 +647,25 @@ img {
 }
 // Congr END
 
+@media (max-height: 1080px) {
+  .page-inner__logo {
+    right: 15px;
+  }
+}
+
+@media (max-height: 700px) {
+  .page-wrapper {
+    &--congr,
+    &--inner {
+      height: auto;
+    }
+  }
+
+  .congr {
+    height: auto;
+  }
+}
+
 @media (max-width: 1400px) {
   .header__label {
     &--top {
@@ -761,6 +780,20 @@ img {
 
   .page-content {
     margin-bottom: 40px;
+  }
+
+  .page-bg {
+    &--1 {
+      right: -50px;
+    }
+
+    &--4 {
+      display: none !important;
+    }
+
+    &.no-md {
+      display: none;
+    }
   }
   // Page END
 
@@ -941,11 +974,6 @@ img {
   }
 
   .page-bg {
-    &--4 {
-      top: 3%;
-      right: 20%;
-    }
-
     &.xs {
       display: block;
     }
@@ -993,7 +1021,7 @@ img {
     margin-bottom: 30px;
 
     .logo__img {
-      max-width: 100%;
+      max-width: 250px;
     }
   }
 
